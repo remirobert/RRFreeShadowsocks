@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEB284D1C00D02C001E1EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB284C1C00D02C001E1EE4 /* AppDelegate.swift */; };
+		BBEB28521C00D02C001E1EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB28501C00D02C001E1EE4 /* Main.storyboard */; };
+		BBEB28541C00D02C001E1EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB28531C00D02C001E1EE4 /* Assets.xcassets */; };
+		BBEB28571C00D02C001E1EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB28551C00D02C001E1EE4 /* LaunchScreen.storyboard */; };
+		BBEB28621C00D02C001E1EE4 /* RRFreeShadowdocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB28611C00D02C001E1EE4 /* RRFreeShadowdocksTests.swift */; };
+		BBEB286D1C00D02C001E1EE4 /* RRFreeShadowdocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB286C1C00D02C001E1EE4 /* RRFreeShadowdocksUITests.swift */; };
+		BBEB287B1C00D0B7001E1EE4 /* ShadownsocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB287A1C00D0B7001E1EE4 /* ShadownsocksViewController.swift */; };
+		BBEB287D1C00D0C5001E1EE4 /* ShadowsocksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB287C1C00D0C5001E1EE4 /* ShadowsocksController.swift */; };
+		BBEB287F1C00D0E3001E1EE4 /* Shadowsocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB287E1C00D0E3001E1EE4 /* Shadowsocks.swift */; };
+		BBEB28811C00E1C3001E1EE4 /* ShadowsocksParserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB28801C00E1C3001E1EE4 /* ShadowsocksParserResponse.swift */; };
+		BBEB28831C013B4C001E1EE4 /* ShadownsocksDetailServerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB28821C013B4C001E1EE4 /* ShadownsocksDetailServerTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEB285E1C00D02C001E1EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB28411C00D02C001E1EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB28481C00D02C001E1EE4;
+			remoteInfo = RRFreeShadowdocks;
+		};
+		BBEB28691C00D02C001E1EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB28411C00D02C001E1EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB28481C00D02C001E1EE4;
+			remoteInfo = RRFreeShadowdocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBEB28491C00D02C001E1EE4 /* RRFreeShadowdocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRFreeShadowdocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB284C1C00D02C001E1EE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEB28511C00D02C001E1EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEB28531C00D02C001E1EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEB28561C00D02C001E1EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBEB28581C00D02C001E1EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB285D1C00D02C001E1EE4 /* RRFreeShadowdocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFreeShadowdocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB28611C00D02C001E1EE4 /* RRFreeShadowdocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRFreeShadowdocksTests.swift; sourceTree = "<group>"; };
+		BBEB28631C00D02C001E1EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB28681C00D02C001E1EE4 /* RRFreeShadowdocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFreeShadowdocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB286C1C00D02C001E1EE4 /* RRFreeShadowdocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRFreeShadowdocksUITests.swift; sourceTree = "<group>"; };
+		BBEB286E1C00D02C001E1EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB287A1C00D0B7001E1EE4 /* ShadownsocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadownsocksViewController.swift; sourceTree = "<group>"; };
+		BBEB287C1C00D0C5001E1EE4 /* ShadowsocksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowsocksController.swift; sourceTree = "<group>"; };
+		BBEB287E1C00D0E3001E1EE4 /* Shadowsocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadowsocks.swift; sourceTree = "<group>"; };
+		BBEB28801C00E1C3001E1EE4 /* ShadowsocksParserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowsocksParserResponse.swift; sourceTree = "<group>"; };
+		BBEB28821C013B4C001E1EE4 /* ShadownsocksDetailServerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadownsocksDetailServerTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEB28461C00D02C001E1EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB285A1C00D02C001E1EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB28651C00D02C001E1EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEB28401C00D02C001E1EE4 = {
+			isa = PBXGroup;
+			children = (
+				BBEB284B1C00D02C001E1EE4 /* RRFreeShadowdocks */,
+				BBEB28601C00D02C001E1EE4 /* RRFreeShadowdocksTests */,
+				BBEB286B1C00D02C001E1EE4 /* RRFreeShadowdocksUITests */,
+				BBEB284A1C00D02C001E1EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEB284A1C00D02C001E1EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB28491C00D02C001E1EE4 /* RRFreeShadowdocks.app */,
+				BBEB285D1C00D02C001E1EE4 /* RRFreeShadowdocksTests.xctest */,
+				BBEB28681C00D02C001E1EE4 /* RRFreeShadowdocksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEB284B1C00D02C001E1EE4 /* RRFreeShadowdocks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB284C1C00D02C001E1EE4 /* AppDelegate.swift */,
+				BBEB287A1C00D0B7001E1EE4 /* ShadownsocksViewController.swift */,
+				BBEB28821C013B4C001E1EE4 /* ShadownsocksDetailServerTableViewController.swift */,
+				BBEB287C1C00D0C5001E1EE4 /* ShadowsocksController.swift */,
+				BBEB287E1C00D0E3001E1EE4 /* Shadowsocks.swift */,
+				BBEB28801C00E1C3001E1EE4 /* ShadowsocksParserResponse.swift */,
+				BBEB28501C00D02C001E1EE4 /* Main.storyboard */,
+				BBEB28531C00D02C001E1EE4 /* Assets.xcassets */,
+				BBEB28551C00D02C001E1EE4 /* LaunchScreen.storyboard */,
+				BBEB28581C00D02C001E1EE4 /* Info.plist */,
+			);
+			path = RRFreeShadowdocks;
+			sourceTree = "<group>";
+		};
+		BBEB28601C00D02C001E1EE4 /* RRFreeShadowdocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB28611C00D02C001E1EE4 /* RRFreeShadowdocksTests.swift */,
+				BBEB28631C00D02C001E1EE4 /* Info.plist */,
+			);
+			path = RRFreeShadowdocksTests;
+			sourceTree = "<group>";
+		};
+		BBEB286B1C00D02C001E1EE4 /* RRFreeShadowdocksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB286C1C00D02C001E1EE4 /* RRFreeShadowdocksUITests.swift */,
+				BBEB286E1C00D02C001E1EE4 /* Info.plist */,
+			);
+			path = RRFreeShadowdocksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEB28481C00D02C001E1EE4 /* RRFreeShadowdocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB28711C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocks" */;
+			buildPhases = (
+				BBEB28451C00D02C001E1EE4 /* Sources */,
+				BBEB28461C00D02C001E1EE4 /* Frameworks */,
+				BBEB28471C00D02C001E1EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRFreeShadowdocks;
+			productName = RRFreeShadowdocks;
+			productReference = BBEB28491C00D02C001E1EE4 /* RRFreeShadowdocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEB285C1C00D02C001E1EE4 /* RRFreeShadowdocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB28741C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocksTests" */;
+			buildPhases = (
+				BBEB28591C00D02C001E1EE4 /* Sources */,
+				BBEB285A1C00D02C001E1EE4 /* Frameworks */,
+				BBEB285B1C00D02C001E1EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB285F1C00D02C001E1EE4 /* PBXTargetDependency */,
+			);
+			name = RRFreeShadowdocksTests;
+			productName = RRFreeShadowdocksTests;
+			productReference = BBEB285D1C00D02C001E1EE4 /* RRFreeShadowdocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEB28671C00D02C001E1EE4 /* RRFreeShadowdocksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB28771C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocksUITests" */;
+			buildPhases = (
+				BBEB28641C00D02C001E1EE4 /* Sources */,
+				BBEB28651C00D02C001E1EE4 /* Frameworks */,
+				BBEB28661C00D02C001E1EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB286A1C00D02C001E1EE4 /* PBXTargetDependency */,
+			);
+			name = RRFreeShadowdocksUITests;
+			productName = RRFreeShadowdocksUITests;
+			productReference = BBEB28681C00D02C001E1EE4 /* RRFreeShadowdocksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEB28411C00D02C001E1EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Remi Robert";
+				TargetAttributes = {
+					BBEB28481C00D02C001E1EE4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BBEB285C1C00D02C001E1EE4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BBEB28481C00D02C001E1EE4;
+					};
+					BBEB28671C00D02C001E1EE4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BBEB28481C00D02C001E1EE4;
+					};
+				};
+			};
+			buildConfigurationList = BBEB28441C00D02C001E1EE4 /* Build configuration list for PBXProject "RRFreeShadowdocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEB28401C00D02C001E1EE4;
+			productRefGroup = BBEB284A1C00D02C001E1EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEB28481C00D02C001E1EE4 /* RRFreeShadowdocks */,
+				BBEB285C1C00D02C001E1EE4 /* RRFreeShadowdocksTests */,
+				BBEB28671C00D02C001E1EE4 /* RRFreeShadowdocksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEB28471C00D02C001E1EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB28571C00D02C001E1EE4 /* LaunchScreen.storyboard in Resources */,
+				BBEB28541C00D02C001E1EE4 /* Assets.xcassets in Resources */,
+				BBEB28521C00D02C001E1EE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB285B1C00D02C001E1EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB28661C00D02C001E1EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEB28451C00D02C001E1EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB287B1C00D0B7001E1EE4 /* ShadownsocksViewController.swift in Sources */,
+				BBEB284D1C00D02C001E1EE4 /* AppDelegate.swift in Sources */,
+				BBEB287F1C00D0E3001E1EE4 /* Shadowsocks.swift in Sources */,
+				BBEB28831C013B4C001E1EE4 /* ShadownsocksDetailServerTableViewController.swift in Sources */,
+				BBEB287D1C00D0C5001E1EE4 /* ShadowsocksController.swift in Sources */,
+				BBEB28811C00E1C3001E1EE4 /* ShadowsocksParserResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB28591C00D02C001E1EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB28621C00D02C001E1EE4 /* RRFreeShadowdocksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB28641C00D02C001E1EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB286D1C00D02C001E1EE4 /* RRFreeShadowdocksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEB285F1C00D02C001E1EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB28481C00D02C001E1EE4 /* RRFreeShadowdocks */;
+			targetProxy = BBEB285E1C00D02C001E1EE4 /* PBXContainerItemProxy */;
+		};
+		BBEB286A1C00D02C001E1EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB28481C00D02C001E1EE4 /* RRFreeShadowdocks */;
+			targetProxy = BBEB28691C00D02C001E1EE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEB28501C00D02C001E1EE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB28511C00D02C001E1EE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEB28551C00D02C001E1EE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB28561C00D02C001E1EE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEB286F1C00D02C001E1EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBEB28701C00D02C001E1EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEB28721C00D02C001E1EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRFreeShadowdocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBEB28731C00D02C001E1EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRFreeShadowdocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBEB28751C00D02C001E1EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRFreeShadowdocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRFreeShadowdocks.app/RRFreeShadowdocks";
+			};
+			name = Debug;
+		};
+		BBEB28761C00D02C001E1EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRFreeShadowdocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRFreeShadowdocks.app/RRFreeShadowdocks";
+			};
+			name = Release;
+		};
+		BBEB28781C00D02C001E1EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRFreeShadowdocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRFreeShadowdocks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBEB28791C00D02C001E1EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRFreeShadowdocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRFreeShadowdocksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRFreeShadowdocks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEB28441C00D02C001E1EE4 /* Build configuration list for PBXProject "RRFreeShadowdocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB286F1C00D02C001E1EE4 /* Debug */,
+				BBEB28701C00D02C001E1EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB28711C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB28721C00D02C001E1EE4 /* Debug */,
+				BBEB28731C00D02C001E1EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBEB28741C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB28751C00D02C001E1EE4 /* Debug */,
+				BBEB28761C00D02C001E1EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBEB28771C00D02C001E1EE4 /* Build configuration list for PBXNativeTarget "RRFreeShadowdocksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB28781C00D02C001E1EE4 /* Debug */,
+				BBEB28791C00D02C001E1EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEB28411C00D02C001E1EE4 /* Project object */;
+}
