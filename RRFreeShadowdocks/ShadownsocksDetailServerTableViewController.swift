@@ -40,7 +40,7 @@ class ShadownsocksDetailServerTableViewController: UITableViewController {
             stringConfig += "\(server.port!),"
             stringConfig += "\(server.encryption!),"
             stringConfig += "\(server.password!),"
-            stringConfig += "https://dl.dropboxuseercontent.com/u/760466/SSEncrypt.module"
+            stringConfig += "https://dl.dropboxusercontent.com/u/760466/SSEncrypt.module"
             
             let alertController = UIAlertController(title: "Surge configuration", message: stringConfig, preferredStyle: UIAlertControllerStyle.Alert)
             let actionCopy = UIAlertAction(title: "copy", style: UIAlertActionStyle.Default, handler: { (_) -> Void in
