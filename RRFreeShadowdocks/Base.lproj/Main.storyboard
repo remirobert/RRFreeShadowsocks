@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Shadowsocks FREE-->
+        <!--💻👍🎉-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ShadownsocksViewController" customModule="RRFreeShadowdocks" customModuleProvider="target" sceneMemberID="viewController">
@@ -65,7 +65,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="aDt-g6-Zgm" secondAttribute="trailing" constant="-20" id="lPU-Bv-GWE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Shadowsocks FREE" id="NTx-ZW-XXw"/>
+                    <navigationItem key="navigationItem" title="💻👍🎉" id="NTx-ZW-XXw"/>
                     <connections>
                         <outlet property="ativityIndicator" destination="boF-fe-wob" id="gqS-yP-FIW"/>
                         <outlet property="tableView" destination="aDt-g6-Zgm" id="ZhG-Gy-aix"/>
